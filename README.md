@@ -1,4 +1,4 @@
-# Takym.github.io
+# takym.github.io
 Copyright (C) 2020 Takym.
 
 * **Attention:** please do not fork and clone this repository. 
