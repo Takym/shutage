@@ -35,7 +35,7 @@ Copyright (C) 2020 Takym.
 ## 概要 <a id="ja_summary"></a>
 * 自分で作成したリポジトリの情報を集約しています。
 
-## リポジトリ一覧 <a id="ja_repos></a>
+## リポジトリ一覧 <a id="ja_repos"></a>
 * [ExapisSOP](https://github.com/Takym/ExapisSOP)
   * サービス指向プログラミング向け拡張APIライブラリ。
 * [AupLauncher](https://github.com/Takym/AupLauncher)
