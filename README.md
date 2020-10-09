@@ -21,6 +21,7 @@ Copyright (C) 2020 Takym.
   * Extensible APIs for the Service-Oriented Programming.
 * [AupLauncher](https://github.com/Takym/AupLauncher)
   * Launcher for AviUtl & Audacity Project Files
+* For more misc repositories, please see [this page](./repos.md).
 
 ## Terms for this Site <a id="en_terms"></a>
 * Please refer [this page](./LICENSE.md). (Japanese)
@@ -39,6 +40,7 @@ Copyright (C) 2020 Takym.
   * サービス指向プログラミング向け拡張APIライブラリ。
 * [AupLauncher](https://github.com/Takym/AupLauncher)
   * AviUtl/Audacityプロジェクトファイル自動切り替えツール。
+* その他の情報は[こちらのページ](./repos.md)にまとめています。
 
 ## このサイトの規約について <a id="ja_terms"></a>
 * [こちらのページ](./LICENSE.md)をご覧ください。
