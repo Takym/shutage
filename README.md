@@ -8,11 +8,23 @@ Copyright (C) 2020 Takym.
 * **注意：** このリポジトリをフォークまたはクローンしないでください。
 
 # English <a id="en"></a>
+## Table of Contents
+* [Summary](#en_summary)
+* [Terms for this Site](#en_terms)
 
-## Terms for this Site
-* Please refer [this page](./LICENSE.md).
+## Summary <a id="en_summary"></a>
+* Aggregates and manages my repository information.
+
+## Terms for this Site <a id="en_terms"></a>
+* Please refer [this page](./LICENSE.md). (Japanese)
 
 # 日本語 <a id="ja"></a>
+## 目次
+* [概要](#ja_summary)
+* [このサイトの規約について](#ja_terms)
 
-## このサイトの規約について
+## 概要 <a id="ja_summary"></a>
+* 自分で作成したリポジトリの情報を集約しています。
+
+## このサイトの規約について <a id="ja_terms"></a>
 * [こちらのページ](./LICENSE.md)をご覧ください。
