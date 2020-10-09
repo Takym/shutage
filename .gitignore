@@ -10,3 +10,9 @@ desktop.ini
 # Cache files
 [Cc]ache/*
 *.cache
+
+# Lock files
+*.lock
+
+# Site files
+_site/
