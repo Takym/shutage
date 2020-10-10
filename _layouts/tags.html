@@ -15,17 +15,13 @@ layout: post
 				<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
 				<td>{{ post.date | date: "%Y/%m/%d" | default: "取得できません。" }}</td>
 				<td>
-					<span>|</span>
 					{% for author in post.authors %}
 					<b>@<a href="https://github.com/{{ author }}">{{ author }}</a></b>
-					<span>|</span>
 					{% endfor %}
 				</td>
 				<td>
-					<span>|</span>
 					{% for tag in post.tags %}
-					<b><a href="{{ site.baseurl }}/articles/tags.html#{{ tag }}">{{ tag }}</a></b>
-					<span>|</span>
+					<b>#<a href="{{ site.baseurl }}/articles/tags.html#{{ tag }}">{{ tag }}</a></b>
 					{% endfor %}
 				</td>
 			</tr>

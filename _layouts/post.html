@@ -73,17 +73,11 @@
 				{{ page.description | default: "" }}
 			</p>
 			<div>
-				<span>|</span>
 				<a href="{{ site.github.repository_url }}" class="btn">GitHub リポジトリ</a>
-				<span>|</span>
 				<a href="{{ site.github.owner_url }}" class="btn">管理者：{{ site.github.owner_name | default: "Takym" }}</a>
-				<span>|</span>
-				<time datetime="{{ date | date_to_xmlschema }}">更新日：{{ date | date: "%Y/%m/%d" | default: "取得できません。" }}</time>
-				<span>|</span>
-				<span><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" class="btn">編集</a></span>
-				<span>|</span>
-				<span><a href="{{ site.github.repository_url }}/new/master/" class="btn">新規作成</a></span>
-				<span>|</span>
+				<time datetime="{{ date | date_to_xmlschema }}" class="btn">更新日：{{ date | date: "%Y/%m/%d" | default: "取得できません。" }}</time>
+				<a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" class="btn">編集</a>
+				<a href="{{ site.github.repository_url }}/new/master/" class="btn">新規作成</a>
 			</div>
 			<hr />
 		</header>
