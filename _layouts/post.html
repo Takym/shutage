@@ -67,7 +67,7 @@
 			{% assign tags = page.tags %}
 			{% assign authors = page.authors %}
 		{% endif %}
-		<header>
+		<header class="page-header" role="banner">
 			<h1 class="header"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 			<p>
 				{{ site.description | default: "[DESCRIPTION IN HERE]" }}<br />
@@ -88,13 +88,13 @@
 			</div>
 			<hr />
 		</header>
-		<section>
+		<main id="content" class="main-content" role="main">
 		{% if page.title %}
 		<h1>{{ page.title }}</h1>
 		{% endif %}
 		{{ content }}
-		</section>
-		<footer>
+		</main>
+		<footer class="site-footer">
 			<hr />
 			{% if tags %}
 			<span>タグ：|</span>
@@ -112,9 +112,11 @@
 			{% endfor %}
 			<br />
 			{% endif %}
-			<small>Copyright (C) 2020 Takym.</small>
-			<br />
-			<small>Hosted on GitHub Pages, using Jekyll and Rouge.</small>
+			<span class="site-footer-credits">
+				<small>Copyright (C) 2020 Takym.</small>
+				<br />
+				<small>Hosted on GitHub Pages, using Jekyll and Rouge.</small>
+			</span>
 		</footer>
 	</body>
 </html>

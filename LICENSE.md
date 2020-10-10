@@ -1,6 +1,3 @@
----
-authors: Takym
----
 # Terms for takym.github.io
 Copyright (C) 2020 Takym.
 

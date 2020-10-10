@@ -1,6 +1,3 @@
----
-authors: Takym
----
 # takym.github.io
 Copyright (C) 2020 Takym.
 
@@ -30,6 +27,7 @@ Copyright (C) 2020 Takym.
 
 ## Terms for this Site <a id="en_terms"></a>
 * Please refer [this page](./LICENSE.md). (Japanese)
+* For using softwares, please refer [this page](./using_softwares.md). (Japanese)
 
 # 日本語 <a id="ja"></a>
 ## 目次
@@ -50,3 +48,4 @@ Copyright (C) 2020 Takym.
 
 ## このサイトの規約について <a id="ja_terms"></a>
 * [こちらのページ](./LICENSE.md)をご覧ください。
+* 利用ソフトウェア一覧は[こちらのページ](./using_softwares.md)をご覧ください。

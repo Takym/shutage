@@ -1,6 +1,3 @@
----
-authors: Takym
----
 # Repository List リポジトリ一覧
 Copyright (C) 2020 Takym.
 

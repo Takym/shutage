@@ -1,6 +1,3 @@
----
-authors: Takym
----
 # 利用ソフトウェア一覧
 Copyright (C) 2020 Takym.
 
