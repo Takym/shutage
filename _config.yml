@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 google_analytics: UA-99298946-3
 include: [LICENSE.md]
+permalink: /articles/:year/:month/:day/:title:output_ext

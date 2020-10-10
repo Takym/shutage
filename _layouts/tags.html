@@ -1,0 +1,56 @@
+---
+layout: post
+---
+{% if site.tags %}
+{% for tag in site.tags %}
+{% assign tag_exists="tag_exists" %}
+<article id="{{ tag[0] }}">
+	<h2>{{ tag[0] }}</h2>
+	{% if page.tags_viewmode=="table" %}
+	<table border="0">
+		<thead><tr><th>題名</th><th>更新日時</th><th>投稿者</th><th>別のタグ</th></tr></thead>
+		<tbody>
+			{% for post in tag[1] %}
+			<tr>
+				<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+				<td>{{ post.date | date: "%Y/%m/%d" | default: "取得できません。" }}</td>
+				<td>
+					<span>|</span>
+					{% for author in post.authors %}
+					<b>@<a href="https://github.com/{{ author }}">{{ author }}</a></b>
+					<span>|</span>
+					{% endfor %}
+				</td>
+				<td>
+					<span>|</span>
+					{% for tag in post.tags %}
+					<b><a href="{{ site.baseurl }}/articles/tags.html#{{ tag }}">{{ tag }}</a></b>
+					<span>|</span>
+					{% endfor %}
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	{% else %}
+	<ul>
+		{% for post in tag[1] %}
+		<li>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+</article>
+{% endfor %}
+{% if page.tags_viewmode=="table" %}
+<a href="{{ site.baseurl }}/articles/taglist.html">箇条書き形式</a>
+{% else %}
+<a href="{{ site.baseurl }}/articles/tags.html">表形式</a>
+{% endif %}
+{% else %}
+{{ content }}
+{% endif %}
+{% if tag_exists!="tag_exists" %}
+{{ content }}
+{% endif%}

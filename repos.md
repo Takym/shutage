@@ -1,7 +1,10 @@
+---
+authors: Takym
+---
 # Repository List リポジトリ一覧
 Copyright (C) 2020 Takym.
 
-| # |Name                 |Link                                          |Status            |状態           |
+| # |Name                 |Address                                       |Status            |状態           |
 |:-:|:--------------------|:---------------------------------------------|:-----------------|:--------------|
 |  0|takym.github.io      |https://github.com/Takym/takym.github.io      |This Repo         |このリポジトリ  |
 |  1|ExapisSOP            |https://github.com/Takym/ExapisSOP            |Developing        |開発継続中      |

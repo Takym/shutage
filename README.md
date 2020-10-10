@@ -1,3 +1,6 @@
+---
+authors: Takym
+---
 # takym.github.io
 Copyright (C) 2020 Takym.
 
@@ -5,7 +8,7 @@ Copyright (C) 2020 Takym.
 [English](#en)
 [編集/Edit](https://github.com/Takym/takym.github.io/)
 
-* **Attention:** please do not fork and clone this repository. 
+* **Attention:** please do not fork and clone this repository.
 * **注意：** このリポジトリをフォークまたはクローンしないでください。
 
 # English <a id="en"></a>
@@ -16,12 +19,13 @@ Copyright (C) 2020 Takym.
 
 ## Summary <a id="en_summary"></a>
 * Aggregates and manages my repository information.
+* Plese see [tags list](https://takym.github.io/articles/tags.html) (Japanese) to find articles.
 
 ## List of repositories <a id="en_repos"></a>
 * [ExapisSOP](https://github.com/Takym/ExapisSOP)
-  * Extensible APIs for the Service-Oriented Programming.
+	* Extensible APIs for the Service-Oriented Programming.
 * [AupLauncher](https://github.com/Takym/AupLauncher)
-  * Launcher for AviUtl & Audacity Project Files
+	* Launcher for AviUtl & Audacity Project Files
 * For more misc repositories, please see [this page](./repos.md).
 
 ## Terms for this Site <a id="en_terms"></a>
@@ -35,12 +39,13 @@ Copyright (C) 2020 Takym.
 
 ## 概要 <a id="ja_summary"></a>
 * 自分で作成したリポジトリの情報を集約しています。
+* [記事一覧](https://takym.github.io/articles/tags.html)から記事を探せます。
 
 ## リポジトリ一覧 <a id="ja_repos"></a>
 * [ExapisSOP](https://github.com/Takym/ExapisSOP)
-  * サービス指向プログラミング向け拡張APIライブラリ。
+	* サービス指向プログラミング向け拡張APIライブラリ。
 * [AupLauncher](https://github.com/Takym/AupLauncher)
-  * AviUtl/Audacityプロジェクトファイル自動切り替えツール。
+	* AviUtl/Audacityプロジェクトファイル自動切り替えツール。
 * その他の情報は[こちらのページ](./repos.md)にまとめています。
 
 ## このサイトの規約について <a id="ja_terms"></a>

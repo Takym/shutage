@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ja-JP" }}">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+		<!-- Cayman begin -->
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<!-- Cayman end -->
+		<style>
+			@font-face {
+				font-family: "IPAGothic";
+				src: url({{ site.baseurl }}/assets/fonts/ipag.ttf) format('truetype');
+			}
+			* {
+				font-family: "IPAGothic", "MS Gothic", "Consolas", monospace, sans-serif;
+			}
+			h1.header > a {
+				text-decoration: none;
+				color: #000000;
+			}
+			th, td {
+				border-style: solid;
+				border-color: #C0C0C0;
+				border-width: 1px;
+			}
+			th {
+				border-bottom-style: double;
+				border-bottom-color: #404040;
+				border-bottom-width: 3px;
+			}
+			td {
+				border-bottom-style: dashed;
+				border-bottom-color: #808080;
+				border-bottom-width: 1px;
+			}
+			code.highlighter-rouge {
+				color: #CC424B;
+				background-color: #F0F0F0;
+			}
+		</style>
+		<!-- rouge begin -->
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/rouge-syntax-highlighter.css" />
+		<!-- rouge end -->
+		<!-- seo begin -->
+		{% seo %}
+		<!-- seo end -->
+		<!-- Google Analytics begin -->
+		{% if site.google_analytics %}
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '{{ site.google_analytics }}');
+		</script>
+		{% endif %}
+		<!-- Google Analytics end -->
+	</head>
+	<body>
+		{% if post %}
+			{% assign date = post.date %}
+			{% assign tags = post.tags %}
+			{% assign authors = post.authors %}
+		{% else %}
+			{% assign date = page.date %}
+			{% assign tags = page.tags %}
+			{% assign authors = page.authors %}
+		{% endif %}
+		<header>
+			<h1 class="header"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+			<p>
+				{{ site.description | default: "[DESCRIPTION IN HERE]" }}<br />
+				{{ page.description | default: "" }}
+			</p>
+			<div>
+				<span>|</span>
+				<a href="{{ site.github.repository_url }}">GitHub リポジトリ</a>
+				<span>|</span>
+				<a href="{{ site.github.owner_url }}">管理者：{{ site.github.owner_name | default: "Takym" }}</a>
+				<span>|</span>
+				<time datetime="{{ date | date_to_xmlschema }}">更新日：{{ date | date: "%Y/%m/%d" | default: "取得できません。" }}</time>
+				<span>|</span>
+				<span><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">編集</a></span>
+				<span>|</span>
+				<span><a href="{{ site.github.repository_url }}/new/master/">新規作成</a></span>
+				<span>|</span>
+			</div>
+			<hr />
+		</header>
+		<section>
+		{% if page.title %}
+		<h1>{{ page.title }}</h1>
+		{% endif %}
+		{{ content }}
+		</section>
+		<footer>
+			<hr />
+			{% if tags %}
+			<span>タグ：|</span>
+			{% for tag in tags %}
+			<b><a href="{{ site.baseurl }}/articles/tags.html#{{ tag }}">{{ tag }}</a></b>
+			<span>|</span>
+			{% endfor %}
+			<br />
+			{% endif %}
+			{% if authors %}
+			<span>編集者：|</span>
+			{% for author in authors %}
+			<b>@<a href="https://github.com/{{ author }}">{{ author }}</a></b>
+			<span>|</span>
+			{% endfor %}
+			<br />
+			{% endif %}
+			<small>Copyright (C) 2020 Takym.</small>
+			<br />
+			<small>Hosted on GitHub Pages, using Jekyll and Rouge.</small>
+		</footer>
+	</body>
+</html>
+{% comment %}
+<!-- Jekyll参考:
+https://genjiapp.com/blog/2013/11/21/simple-tags-page-for-jekyll.html
+https://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
+http://jekyllrb-ja.github.io/docs/variables/
+-->
+{% endcomment %}
