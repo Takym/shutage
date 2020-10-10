@@ -15,10 +15,6 @@
 			* {
 				font-family: "IPAGothic", "MS Gothic", "Consolas", monospace, sans-serif;
 			}
-			h1.header > a {
-				text-decoration: none;
-				color: #000000;
-			}
 			th, td {
 				border-style: solid;
 				border-color: #C0C0C0;
@@ -68,22 +64,22 @@
 			{% assign authors = page.authors %}
 		{% endif %}
 		<header class="page-header" role="banner">
-			<h1 class="header"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+			<h1 class="project-name"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 			<p>
 				{{ site.description | default: "[DESCRIPTION IN HERE]" }}<br />
 				{{ page.description | default: "" }}
 			</p>
 			<div>
 				<span>|</span>
-				<a href="{{ site.github.repository_url }}">GitHub リポジトリ</a>
+				<a href="{{ site.github.repository_url }}" class="btn">GitHub リポジトリ</a>
 				<span>|</span>
-				<a href="{{ site.github.owner_url }}">管理者：{{ site.github.owner_name | default: "Takym" }}</a>
+				<a href="{{ site.github.owner_url }}" class="btn">管理者：{{ site.github.owner_name | default: "Takym" }}</a>
 				<span>|</span>
 				<time datetime="{{ date | date_to_xmlschema }}">更新日：{{ date | date: "%Y/%m/%d" | default: "取得できません。" }}</time>
 				<span>|</span>
-				<span><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">編集</a></span>
+				<span><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" class="btn">編集</a></span>
 				<span>|</span>
-				<span><a href="{{ site.github.repository_url }}/new/master/">新規作成</a></span>
+				<span><a href="{{ site.github.repository_url }}/new/master/" class="btn">新規作成</a></span>
 				<span>|</span>
 			</div>
 			<hr />
