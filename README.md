@@ -21,7 +21,7 @@ Copyright (C) 2020 Takym.
 ## List of repositories <a id="en_repos"></a>
 * [ExapisSOP](https://github.com/Takym/ExapisSOP)
 	* Extensible APIs for the Service-Oriented Programming.
-	* [View the site](./ExapisSOP).
+	* [View the site](https://takym.github.io/ExapisSOP).
 * [AupLauncher](https://github.com/Takym/AupLauncher)
 	* Launcher for AviUtl & Audacity Project Files
 * For more misc repositories, please see [this page](./repos.md).
@@ -43,7 +43,7 @@ Copyright (C) 2020 Takym.
 ## リポジトリ一覧 <a id="ja_repos"></a>
 * [ExapisSOP](https://github.com/Takym/ExapisSOP)
 	* サービス指向プログラミング向け拡張APIライブラリ。
-	* [サイトを表示する](./ExapisSOP)。
+	* [サイトを表示する](https://takym.github.io/ExapisSOP)。
 * [AupLauncher](https://github.com/Takym/AupLauncher)
 	* AviUtl/Audacityプロジェクトファイル自動切り替えツール。
 * その他の情報は[こちらのページ](./repos.md)にまとめています。
