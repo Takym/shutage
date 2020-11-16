@@ -1,13 +1,13 @@
-const okabe    = "#663030;"; // 岡部
+const okabe    = "#884444;"; // 岡部
 const mayuri   = "#6677EE;"; // まゆり
 const daru     = "#BBCC22;"; // ダル
-const tina     = "#EE5555;"; // 紅莉栖
+const tina     = "#F53333;"; // 紅莉栖
 const moeka    = "#EAA522;"; // 桐生萌郁
 const ruka     = "#336666;"; // ルカ子
 const faris    = "#FF0080;"; // ﾌｪｲﾘｽ
 const suzu     = "#1111BB;"; // 鈴羽
-const maho     = "#406020;"; // 真帆
-const kagari   = "#882244;"; // かがり
+const maho     = "#446633;"; // 真帆
+const kagari   = "#AA2266;"; // かがり
 const yuki     = "#8F65FF;"; // 由季
 const brown    = "#989800;"; // 天王寺
 const nae      = "#FF44CC;"; // 綯
