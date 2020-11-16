@@ -58,5 +58,5 @@ Copyright (C) 2020 Takym.
 * アレクシス・レスキネン - [レスキネン](https://takym.github.io/shutage/articles/tags.html#レスキネン)
 
 ## このサイトの規約について <a id="terms"></a>
-* [こちらのページ](./LICENSE.md)(準備中)をご覧ください。
+* [こちらのページ](./LICENSE.md)をご覧ください。
 * 利用ソフトウェア一覧は[こちらのページ](./using_softwares.md)をご覧ください。
