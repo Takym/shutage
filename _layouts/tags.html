@@ -51,6 +51,7 @@ layout: post
 {{ content }}
 {% endif%}
 
+{% if page.tags_viewmode=="table" %}
 <script>
 	window.onload = (function() {
 		let ua = navigator.userAgent;
@@ -59,3 +60,4 @@ layout: post
 		}
 	});
 </script>
+{% endif%}
