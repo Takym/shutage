@@ -332,7 +332,7 @@ const charnames = [
 window.onload = function() {
 	var tags = document.getElementsByTagName("strong");
 	for (var i = 0; i < tags.length; ++i) {
-		for (var j = 0; j < charnames.length; ++i) {
+		for (var j = 0; j < charnames.length; ++j) {
 			if (tags[i].innerText == "^" + charnames[j].name) {
 				tags[i].innerText = charnames[j].name;
 				tags[i].style.cssText = "font-weight: bold; color: " + charnames[j].color;
