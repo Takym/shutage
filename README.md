@@ -22,8 +22,10 @@ Copyright (C) 2020 Takym.
 * `_posts`ディレクトリ内のファイルは以下の様に命名する。
 * 2/5chまとめのSS作品の場合：
 	* `yyyy-mm-dd-ssxxxx` (`yyyy`は年、`mm`は月、`dd`は日を表す。四桁の数字の前に`ss`を付ける。)
+	* `SS作品`タグを付与する。
 * このリポジトリのオリジナル作品の場合：
 	* `yyyy-mm-dd-myssxxxx` (`yyyy`は年、`mm`は月、`dd`は日を表す。四桁の数字の前に`myss`を付ける。)
+	* `SS作品`タグを付与する。
 	* `自作`タグを付与する。
 
 ## charname.js の使い方 <a id="charname"></a>
