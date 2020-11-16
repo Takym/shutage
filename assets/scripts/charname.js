@@ -3,7 +3,7 @@ const mayuri   = "#5566EE;"; // まゆり
 const daru     = "#BBCC22;"; // ダル
 const tina     = "#EE5555;"; // 紅莉栖
 const moeka    = "#EAC220;"; // 桐生萌郁
-const ruka     = ""; // ルカ子
+const ruka     = "#33AA55"; // ルカ子
 const faris    = ""; // ﾌｪｲﾘｽ
 const suzu     = ""; // 鈴羽
 const maho     = ""; // 真帆
@@ -140,8 +140,68 @@ window.onload = function() {
 		} else if (tags[i].innerText == "^セレセブ") {
 			tags[i].innerText = "セレセブ";
 			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^セレブ・セブンティーン") {
+			tags[i].innerText = "セレブ・セブンティーン";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^くまぱん") {
+			tags[i].innerText = "くまぱん";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^蘇りし者") {
+			tags[i].innerText = "蘇りし者";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^ザ・ゾンビ") {
+			tags[i].innerText = "ザ・ゾンビ";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^実験大好きっ子") {
+			tags[i].innerText = "実験大好きっ子";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^実験大好きっ娘") {
+			tags[i].innerText = "実験大好きっ娘";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^スイーツ（笑）") {
+			tags[i].innerText = "スイーツ（笑）";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^@ちゃんねらークリス") {
+			tags[i].innerText = "@ちゃんねらークリス";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
 		} else if (tags[i].innerText == "^栗悟飯とカメハメ波") {
 			tags[i].innerText = "栗悟飯とカメハメ波";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^ツンツン小生意気ヘルパー") {
+			tags[i].innerText = "ツンツン小生意気ヘルパー";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^ヴァージン・エクストラ諸島") {
+			tags[i].innerText = "ヴァージン・エクストラ諸島";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^ヴァージン・エクストラ諸島") {
+			tags[i].innerText = "ヴァージン・エクストラ諸島";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^天才変態少女") {
+			tags[i].innerText = "天才変態少女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^天才変態処女") {
+			tags[i].innerText = "天才変態処女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^天才HENTAI少女") {
+			tags[i].innerText = "天才HENTAI少女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^天才HENTAI処女") {
+			tags[i].innerText = "天才HENTAI処女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^冷血放蕩天才変態少女") {
+			tags[i].innerText = "冷血放蕩天才変態少女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^冷血放蕩天才変態処女") {
+			tags[i].innerText = "冷血放蕩天才変態処女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^冷血放蕩天才HENTAI少女") {
+			tags[i].innerText = "冷血放蕩天才HENTAI少女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^冷血放蕩天才HENTAI処女") {
+			tags[i].innerText = "冷血放蕩天才HENTAI処女";
+			tags[i].style.cssText = "font-weight: bold; color: " + tina;
+		} else if (tags[i].innerText == "^メリケン処女") {
+			tags[i].innerText = "メリケン処女";
 			tags[i].style.cssText = "font-weight: bold; color: " + tina;
 		} else if (tags[i].innerText == "^Ama紅莉栖") {
 			tags[i].innerText = "Ama紅莉栖";
@@ -167,6 +227,24 @@ window.onload = function() {
 		} else if (tags[i].innerText == "^M4") {
 			tags[i].innerText = "M4";
 			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
+		} else if (tags[i].innerText == "^漆原るか") {
+			tags[i].innerText = "漆原るか";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		} else if (tags[i].innerText == "^漆原") {
+			tags[i].innerText = "漆原";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		} else if (tags[i].innerText == "^るか") {
+			tags[i].innerText = "るか";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		} else if (tags[i].innerText == "^るか子") {
+			tags[i].innerText = "るか子";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		} else if (tags[i].innerText == "^ルカ") {
+			tags[i].innerText = "ルカ";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		} else if (tags[i].innerText == "^ルカ子") {
+			tags[i].innerText = "ルカ子";
+			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
 		}
 	}
 }
