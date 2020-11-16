@@ -50,7 +50,7 @@ layout: post
 <script>
 	window.onload = (function() {
 		let ua = navigator.userAgent;
-		if (ua.indexOf("Phone") !== -1 || us.indexOf("Mobile") !== -1) {
+		if (ua.indexOf("Phone") !== -1 || ua.indexOf("Mobile") !== -1) {
 			window.location.href = "https://takym.github.io/shutage/articles/taglist.html" + window.location.hash;
 		}
 	});
@@ -59,7 +59,7 @@ layout: post
 <script>
 	window.onload = (function() {
 		let ua = navigator.userAgent;
-		if (ua.indexOf("Phone") === -1 && us.indexOf("Mobile") === -1) {
+		if (ua.indexOf("Phone") === -1 && ua.indexOf("Mobile") === -1) {
 			window.location.href = "https://takym.github.io/shutage/articles/tags.html" + window.location.hash;
 		}
 	});
