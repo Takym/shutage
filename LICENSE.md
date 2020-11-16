@@ -1,6 +1,7 @@
 # Terms for takym.github.io
 Copyright (C) 2020 Takym.
 
+* このページは現在準備中です。
 * This page is written in Japanese only.
 
 ## 目的

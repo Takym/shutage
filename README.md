@@ -32,9 +32,23 @@ Copyright (C) 2020 Takym.
 ```markdown
 **^岡部**「フゥーハッハッハ！！！」
 ```
+* 利用できるキャラの名前は[このページ](https://takym.github.io/shutage/articles/2020/11/16/charname.html)を参照。
 
 ## キャラ名タグ一覧 <a id="charname_tags"></a>
-(準備中...)
+* 岡部倫太郎             - [岡部](https://takym.github.io/shutage/articles/tags.html#岡部)
+* 椎名まゆり             - [まゆり](https://takym.github.io/shutage/articles/tags.html#まゆり)
+* 橋田至                 - [ダル](https://takym.github.io/shutage/articles/tags.html#ダル)
+* 牧瀬紅莉栖             - [紅莉栖](https://takym.github.io/shutage/articles/tags.html#紅莉栖)
+* 桐生萌郁               - [桐生萌郁](https://takym.github.io/shutage/articles/tags.html#桐生萌郁)
+* 漆原るか               - [ルカ子](https://takym.github.io/shutage/articles/tags.html#ルカ子)
+* 秋葉留未穂             - [ﾌｪｲﾘｽ](https://takym.github.io/shutage/articles/tags.html#ﾌｪｲﾘｽ)
+* 阿万音鈴羽/橋田鈴羽    - [鈴羽](https://takym.github.io/shutage/articles/tags.html#鈴羽)
+* 比屋定真帆             - [真帆](https://takym.github.io/shutage/articles/tags.html#真帆)
+* 椎名かがり             - [かがり](https://takym.github.io/shutage/articles/tags.html#かがり)
+* 阿万音由季             - [由季](https://takym.github.io/shutage/articles/tags.html#由季)
+* 天王寺裕吾             - [天王寺](https://takym.github.io/shutage/articles/tags.html#天王寺)
+* 天王寺綯               - [綯](https://takym.github.io/shutage/articles/tags.html#綯)
+* アレクシス・レスキネン - [レスキネン](https://takym.github.io/shutage/articles/tags.html#レスキネン)
 
 ## このサイトの規約について <a id="terms"></a>
 * [こちらのページ](./LICENSE.md)(準備中)をご覧ください。
