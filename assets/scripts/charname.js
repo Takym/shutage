@@ -14,237 +14,166 @@ const nae      = ""; // 綯
 const leskinen = ""; // レスキネン
 // 朱美, フブキ, カエデ, ｼﾝｲﾁ, 中鉢, 栄輔, 幸高, ちかね, 黒木, 4℃, 伽夜乃, 今宮綴, レイエス, 井崎
 
+const charnames = [
+	{ "name": "岡部倫太郎",                         "color": okabe  }, // 岡部
+	{ "name": "岡部",                               "color": okabe  },
+	{ "name": "倫太郎",                             "color": okabe  },
+	{ "name": "鳳凰院凶真",                         "color": okabe  },
+	{ "name": "鳳凰院",                             "color": okabe  },
+	{ "name": "凶真",                               "color": okabe  },
+	{ "name": "鳳凰院クロト",                       "color": okabe  },
+	{ "name": "クロト",                             "color": okabe  },
+	{ "name": "未来岡部",                           "color": okabe  },
+	{ "name": "現在岡部",                           "color": okabe  },
+	{ "name": "過去岡部",                           "color": okabe  },
+	{ "name": "岡部Ω",                             "color": okabe  },
+	{ "name": "岡部α",                             "color": okabe  },
+	{ "name": "岡部SG",                             "color": okabe  },
+	{ "name": "岡部β",                             "color": okabe  },
+	{ "name": "岡部γ",                             "color": okabe  },
+	{ "name": "岡部δ",                             "color": okabe  },
+	{ "name": "岡部ε",                             "color": okabe  },
+	{ "name": "岡部絶倫太郎",                       "color": okabe  },
+	{ "name": "絶倫太郎",                           "color": okabe  },
+	{ "name": "オカリン",                           "color": okabe  },
+	{ "name": "オカリンおじさん",                   "color": okabe  },
+	{ "name": "執念オカリン",                       "color": okabe  },
+	{ "name": "絶倫オカリン",                       "color": okabe  },
+	{ "name": "ゼツリン",                           "color": okabe  },
+	{ "name": "オカリン・ニャンニャン",             "color": okabe  },
+	{ "name": "キョーマ",                           "color": okabe  },
+	{ "name": "M3",                                 "color": okabe  },
+	{ "name": "椎名まゆり",                         "color": mayuri }, // まゆり
+	{ "name": "椎名",                               "color": mayuri },
+	{ "name": "まゆり",                             "color": mayuri },
+	{ "name": "まゆしぃ",                           "color": mayuri },
+	{ "name": "マユシィ",                           "color": mayuri },
+	{ "name": "マユシィ・ニャンニャン",             "color": mayuri },
+	{ "name": "まちょり",                           "color": mayuri },
+	{ "name": "まちょしぃ",                         "color": mayuri },
+	{ "name": "まっちょしぃ",                       "color": mayuri },
+	{ "name": "マッチョシィ",                       "color": mayuri },
+	{ "name": "マッチョシィ・ニャンニャン",         "color": mayuri },
+	{ "name": "まゆ氏",                             "color": mayuri },
+	{ "name": "まゆりお姉ちゃん",                   "color": mayuri },
+	{ "name": "まゆりお姉さん",                     "color": mayuri },
+	{ "name": "まゆ姉さん",                         "color": mayuri },
+	{ "name": "橋田至",                             "color": daru   }, // ダル
+	{ "name": "橋田",                               "color": daru   },
+	{ "name": "至",                                 "color": daru   },
+	{ "name": "ダル",                               "color": daru   },
+	{ "name": "ダルおじさん",                       "color": daru   },
+	{ "name": "ダルニャン",                         "color": daru   },
+	{ "name": "ダルシィ・ニャン",                   "color": daru   },
+	{ "name": "DaSH",                               "color": daru   },
+	{ "name": "ダル・ザ・スーパーハッカー",         "color": daru   },
+	{ "name": "バレル・タイター",                   "color": daru   },
+	{ "name": "バレル",                             "color": daru   },
+	{ "name": "スーパーハッカー",                   "color": daru   },
+	{ "name": "スーパーハカー",                     "color": daru   },
+	{ "name": "頼れる右腕",                         "color": daru   },
+	{ "name": "マイ・フェイバリット・ライトアーム", "color": daru   },
+	{ "name": "牧瀬紅莉栖",                         "color": tina   }, // 紅莉栖
+	{ "name": "牧瀬",                               "color": tina   },
+	{ "name": "紅莉栖",                             "color": tina   },
+	{ "name": "助手",                               "color": tina   },
+	{ "name": "腐助手",                             "color": tina   },
+	{ "name": "クリスティーナ",                     "color": tina   },
+	{ "name": "クリ腐ティーナ",                     "color": tina   },
+	{ "name": "ティーナ",                           "color": tina   },
+	{ "name": "セレセブ",                           "color": tina   },
+	{ "name": "セレブ・セブンティーン",             "color": tina   },
+	{ "name": "くまぱん",                           "color": tina   },
+	{ "name": "蘇りし者",                           "color": tina   },
+	{ "name": "腐りし者",                           "color": tina   },
+	{ "name": "ザ・ゾンビ",                         "color": tina   },
+	{ "name": "実験大好きっ子",                     "color": tina   },
+	{ "name": "実験大好きっ娘",                     "color": tina   },
+	{ "name": "スイーツ（笑）",                     "color": tina   },
+	{ "name": "スイーツ(笑)",                       "color": tina   },
+	{ "name": "スイーツ（）",                       "color": tina   },
+	{ "name": "スイーツ()",                         "color": tina   },
+	{ "name": "＠ちゃんねらークリス",               "color": tina   },
+	{ "name": "@ちゃんねらークリス",                "color": tina   },
+	{ "name": "栗悟飯とカメハメ波",                 "color": tina   },
+	{ "name": "ツンツン小生意気ヘルパー",           "color": tina   },
+	{ "name": "ヴァージン・エクストラ諸島",         "color": tina   },
+	{ "name": "天才変態少女",                       "color": tina   },
+	{ "name": "天才変態処女",                       "color": tina   },
+	{ "name": "天才HENTAI少女",                     "color": tina   },
+	{ "name": "天才HENTAI処女",                     "color": tina   },
+	{ "name": "実験大好き天才変態少女",             "color": tina   },
+	{ "name": "実験大好き天才変態処女",             "color": tina   },
+	{ "name": "実験大好き天才HENTAI少女",           "color": tina   },
+	{ "name": "実験大好き天才HENTAI処女",           "color": tina   },
+	{ "name": "冷血放蕩天才変態少女",               "color": tina   },
+	{ "name": "冷血放蕩天才変態処女",               "color": tina   },
+	{ "name": "冷血放蕩天才HENTAI少女",             "color": tina   },
+	{ "name": "冷血放蕩天才HENTAI処女",             "color": tina   },
+	{ "name": "実験大好き冷血放蕩天才変態少女",     "color": tina   },
+	{ "name": "実験大好き冷血放蕩天才変態処女",     "color": tina   },
+	{ "name": "実験大好き冷血放蕩天才HENTAI少女",   "color": tina   },
+	{ "name": "実験大好き冷血放蕩天才HENTAI処女",   "color": tina   },
+	{ "name": "メリケン処女",                       "color": tina   },
+	{ "name": "臀部に蒙古斑女",                     "color": tina   },
+	{ "name": "Amadeus紅莉栖",                      "color": tina   },
+	{ "name": "Ama紅莉栖",                          "color": tina   },
+	{ "name": "甘栗",                               "color": tina   },
+	{ "name": "クーニャン",                         "color": tina   },
+	{ "name": "クリスティーニャン",                 "color": tina   },
+	{ "name": "クリス・ニャンニャン",               "color": tina   },
+	{ "name": "セレセブ・ニャンニャン",             "color": tina   },
+	{ "name": "助手のお姉ちゃん",                   "color": tina   },
+	{ "name": "クリスお姉ちゃん",                   "color": tina   },
+	{ "name": "助手のお姉さん",                     "color": tina   },
+	{ "name": "クリスお姉さん",                     "color": tina   },
+	{ "name": "紅莉栖おばさん",                     "color": tina   },
+	{ "name": "牧瀬氏",                             "color": tina   },
+	{ "name": "クリスたん",                         "color": tina   },
+	{ "name": "桐生萌郁",                           "color": moeka  }, // 桐生萌郁
+	{ "name": "桐生",                               "color": moeka  },
+	{ "name": "萌郁",                               "color": moeka  },
+	{ "name": "閃光の指圧師",                       "color": moeka  },
+	{ "name": "シャイニング・フィンガー",           "color": moeka  },
+	{ "name": "指圧師",                             "color": moeka  },
+	{ "name": "M4",                                 "color": moeka  },
+	{ "name": "閃光・ニャンニャン",                 "color": moeka  },
+	{ "name": "シャイニング・ニャンニャン",         "color": moeka  },
+	{ "name": "モエモエ・ニャンニャン",             "color": moeka  },
+	{ "name": "モエモエ",                           "color": moeka  },
+	{ "name": "もえいく",                           "color": moeka  },
+	{ "name": "もえいくさん",                       "color": moeka  },
+	{ "name": "萌郁お姉ちゃん",                     "color": moeka  },
+	{ "name": "萌郁お姉さん",                       "color": moeka  },
+	{ "name": "桐生氏",                             "color": moeka  },
+	{ "name": "漆原るか",                           "color": ruka   }, // ルカ子
+	{ "name": "漆原",                               "color": ruka   },
+	{ "name": "るか",                               "color": ruka   },
+	{ "name": "るか子",                             "color": ruka   },
+	{ "name": "ルカ",                               "color": ruka   },
+	{ "name": "ルカ子",                             "color": ruka   },
+	{ "name": "るか兄さん",                         "color": ruka   },
+	{ "name": "ルカ兄さん",                         "color": ruka   },
+	{ "name": "るか姉さん",                         "color": ruka   },
+	{ "name": "ルカ姉さん",                         "color": ruka   },
+	{ "name": "るかお姉さん",                       "color": ruka   },
+	{ "name": "ルカお姉さん",                       "color": ruka   },
+	{ "name": "るかお姉ちゃん",                     "color": ruka   },
+	{ "name": "ルカお姉ちゃん",                     "color": ruka   },
+	{ "name": "ルカニャン",                         "color": ruka   },
+	{ "name": "ルカニャン・ニャンニャン",           "color": ruka   },
+	{ "name": "いたる",                             "color": ruka   },
+];
+
 window.onload = function() {
 	var tags = document.getElementsByTagName("strong");
 	for (var i = 0; i < tags.length; ++i) {
-		if (tags[i].innerText == "^岡部倫太郎") {
-			tags[i].innerText = "岡部倫太郎";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部") {
-			tags[i].innerText = "岡部";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^倫太郎") {
-			tags[i].innerText = "倫太郎";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^鳳凰院凶真") {
-			tags[i].innerText = "鳳凰院凶真";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^鳳凰院") {
-			tags[i].innerText = "鳳凰院";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^凶真") {
-			tags[i].innerText = "凶真";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^未来岡部") {
-			tags[i].innerText = "未来岡部";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^現在岡部") {
-			tags[i].innerText = "現在岡部";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^過去岡部") {
-			tags[i].innerText = "過去岡部";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部α") {
-			tags[i].innerText = "岡部α";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部β") {
-			tags[i].innerText = "岡部β";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部SG") {
-			tags[i].innerText = "岡部SG";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部γ") {
-			tags[i].innerText = "岡部γ";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部δ") {
-			tags[i].innerText = "岡部δ";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部ε") {
-			tags[i].innerText = "岡部ε";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^岡部Ω") {
-			tags[i].innerText = "岡部Ω";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^オカリン") {
-			tags[i].innerText = "オカリン";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^執念オカリン") {
-			tags[i].innerText = "執念オカリン";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^絶倫オカリン") {
-			tags[i].innerText = "絶倫オカリン";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^鳳凰院クロト") {
-			tags[i].innerText = "鳳凰院クロト";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^クロト") {
-			tags[i].innerText = "クロト";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^M3") {
-			tags[i].innerText = "M3";
-			tags[i].style.cssText = "font-weight: bold; color: " + okabe;
-		} else if (tags[i].innerText == "^椎名まゆり") {
-			tags[i].innerText = "椎名まゆり";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^椎名") {
-			tags[i].innerText = "椎名";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^まゆり") {
-			tags[i].innerText = "まゆり";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^まちょり") {
-			tags[i].innerText = "まちょり";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^まちょしぃ") {
-			tags[i].innerText = "まちょしぃ";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^まっちょしぃ") {
-			tags[i].innerText = "まっちょしぃ";
-			tags[i].style.cssText = "font-weight: bold; color: " + mayuri;
-		} else if (tags[i].innerText == "^橋田至") {
-			tags[i].innerText = "橋田至";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^橋田") {
-			tags[i].innerText = "橋田";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^至") {
-			tags[i].innerText = "至";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^ダル") {
-			tags[i].innerText = "ダル";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^DaSH") {
-			tags[i].innerText = "DaSH";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^バレル・タイター") {
-			tags[i].innerText = "バレル・タイター";
-			tags[i].style.cssText = "font-weight: bold; color: " + daru;
-		} else if (tags[i].innerText == "^牧瀬紅莉栖") {
-			tags[i].innerText = "牧瀬紅莉栖";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^牧瀬") {
-			tags[i].innerText = "牧瀬";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^紅莉栖") {
-			tags[i].innerText = "紅莉栖";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^助手") {
-			tags[i].innerText = "助手";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^クリスティーナ") {
-			tags[i].innerText = "クリスティーナ";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^ティーナ") {
-			tags[i].innerText = "ティーナ";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^セレセブ") {
-			tags[i].innerText = "セレセブ";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^セレブ・セブンティーン") {
-			tags[i].innerText = "セレブ・セブンティーン";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^くまぱん") {
-			tags[i].innerText = "くまぱん";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^蘇りし者") {
-			tags[i].innerText = "蘇りし者";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^ザ・ゾンビ") {
-			tags[i].innerText = "ザ・ゾンビ";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^実験大好きっ子") {
-			tags[i].innerText = "実験大好きっ子";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^実験大好きっ娘") {
-			tags[i].innerText = "実験大好きっ娘";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^スイーツ（笑）") {
-			tags[i].innerText = "スイーツ（笑）";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^@ちゃんねらークリス") {
-			tags[i].innerText = "@ちゃんねらークリス";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^栗悟飯とカメハメ波") {
-			tags[i].innerText = "栗悟飯とカメハメ波";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^ツンツン小生意気ヘルパー") {
-			tags[i].innerText = "ツンツン小生意気ヘルパー";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^ヴァージン・エクストラ諸島") {
-			tags[i].innerText = "ヴァージン・エクストラ諸島";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^ヴァージン・エクストラ諸島") {
-			tags[i].innerText = "ヴァージン・エクストラ諸島";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^天才変態少女") {
-			tags[i].innerText = "天才変態少女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^天才変態処女") {
-			tags[i].innerText = "天才変態処女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^天才HENTAI少女") {
-			tags[i].innerText = "天才HENTAI少女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^天才HENTAI処女") {
-			tags[i].innerText = "天才HENTAI処女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^冷血放蕩天才変態少女") {
-			tags[i].innerText = "冷血放蕩天才変態少女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^冷血放蕩天才変態処女") {
-			tags[i].innerText = "冷血放蕩天才変態処女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^冷血放蕩天才HENTAI少女") {
-			tags[i].innerText = "冷血放蕩天才HENTAI少女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^冷血放蕩天才HENTAI処女") {
-			tags[i].innerText = "冷血放蕩天才HENTAI処女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^メリケン処女") {
-			tags[i].innerText = "メリケン処女";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^Ama紅莉栖") {
-			tags[i].innerText = "Ama紅莉栖";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^甘栗") {
-			tags[i].innerText = "甘栗";
-			tags[i].style.cssText = "font-weight: bold; color: " + tina;
-		} else if (tags[i].innerText == "^桐生萌郁") {
-			tags[i].innerText = "桐生萌郁";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^桐生") {
-			tags[i].innerText = "桐生";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^萌郁") {
-			tags[i].innerText = "萌郁";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^閃光の指圧師") {
-			tags[i].innerText = "閃光の指圧師";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^指圧師") {
-			tags[i].innerText = "指圧師";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^M4") {
-			tags[i].innerText = "M4";
-			tags[i].style.cssText = "font-weight: bold; color: " + moeka;
-		} else if (tags[i].innerText == "^漆原るか") {
-			tags[i].innerText = "漆原るか";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
-		} else if (tags[i].innerText == "^漆原") {
-			tags[i].innerText = "漆原";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
-		} else if (tags[i].innerText == "^るか") {
-			tags[i].innerText = "るか";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
-		} else if (tags[i].innerText == "^るか子") {
-			tags[i].innerText = "るか子";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
-		} else if (tags[i].innerText == "^ルカ") {
-			tags[i].innerText = "ルカ";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
-		} else if (tags[i].innerText == "^ルカ子") {
-			tags[i].innerText = "ルカ子";
-			tags[i].style.cssText = "font-weight: bold; color: " + ruka;
+		for (var j = 0; j < charnames.length; ++i) {
+			if (tags[i].innerText == "^" + charnames[j].name) {
+				tags[i].innerText = charnames[j].name;
+				tags[i].style.cssText = "font-weight: bold; color: " + charnames[j].color;
+				break;
+			}
 		}
 	}
 }
