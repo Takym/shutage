@@ -304,7 +304,6 @@ const charnames = [
 	{ "name": "店長さん",                           "color": brown    },
 	{ "name": "ハゲ",                               "color": brown    },
 	{ "name": "天王寺綯",                           "color": nae      }, // 綯
-	{ "name": "天王寺",                             "color": nae      },
 	{ "name": "綯",                                 "color": nae      },
 	{ "name": "シスターブラウン",                   "color": nae      },
 	{ "name": "小動物",                             "color": nae      },
