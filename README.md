@@ -3,8 +3,6 @@ Copyright (C) 2020 Takym.
 
 [編集](https://github.com/Takym/shutage/)
 
-* **Attention:** please do not fork or clone this repository.
-* **注意：** このリポジトリをフォークまたはクローンしないでください。
 * 現在、殆どのコンテンツが準備中です。
 
 ## 目次
@@ -61,3 +59,4 @@ Copyright (C) 2020 Takym.
 * ソフトウェアではありませんがMITライセンスとします。
 * 詳細は[こちらのページ](./LICENSE.md)をご覧ください。
 * 利用ソフトウェア一覧は[こちらのページ](./using_softwares.md)をご覧ください。
+* ただし、[最初のコミット](https://github.com/Takym/shutage/commit/d0de37a9392bcef975526993484296e3a36d78b6)から[f7189e1a](https://github.com/Takym/shutage/commit/f7189e1aa99d298f2f4d2efa5527b1c05b14b2d3)までは[こちらの規約](https://github.com/Takym/takym.github.io/blob/gh-pages/LICENSE.md)に従います。
