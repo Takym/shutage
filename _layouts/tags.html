@@ -39,11 +39,6 @@ layout: post
 	{% endif %}
 </article>
 {% endfor %}
-{% if page.tags_viewmode=="table" %}
-<a href="{{ site.baseurl }}/articles/taglist.html">箇条書き形式</a>
-{% else %}
-<a href="{{ site.baseurl }}/articles/tags.html">表形式(スマホ非対応)</a>
-{% endif %}
 {% else %}
 {{ content }}
 {% endif %}
@@ -57,6 +52,15 @@ layout: post
 		let ua = navigator.userAgent;
 		if (ua.indexOf("Phone") !== -1 || us.indexOf("Mobile") !== -1) {
 			window.location.href = "https://takym.github.io/shutage/articles/taglist.html" + window.location.hash;
+		}
+	});
+</script>
+{% else %}
+<script>
+	window.onload = (function() {
+		let ua = navigator.userAgent;
+		if (ua.indexOf("Phone") === -1 && us.indexOf("Mobile") === -1) {
+			window.location.href = "https://takym.github.io/shutage/articles/tags.html" + window.location.hash;
 		}
 	});
 </script>
