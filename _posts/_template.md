@@ -28,12 +28,13 @@ tags:
   - その他キャラ
 ---
 <!-- このファイルはまとめSS用のテンプレートです。 -->
-<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=6&sort=s -->
+<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=7&sort=s -->
 - 題名：
 - [2ちゃんねる](http://viper.2ch.sc/test/read.cgi/news4vip/xxx)
 - [5ちゃんねる](http://hebi.5ch.net/test/read.cgi/news4vip/xxx)
 - [SS速報VIP](https://ex14.vip2ch.com/test/read.cgi/news4ssnip/xxx/)
 - [おーぷん2ちゃん](https://hayabusa.open2ch.net/test/read.cgi/news4vip/xxx/)
+- [したらば掲示板](https://jbbs.shitaraba.net/)
 - [あやめ速報](https://ayamevip.com/archives/xxx.html)
 - [ポチッとSS!! SSまとめ](http://potittoss.blog.jp/archives/xxx.html)
 - [SS 森きのこ！](http://morikinoko.com/archives/xxx.html)
@@ -50,3 +51,4 @@ tags:
 - [アムネジアｓｓ大全](http://amnesiataizen.blog.fc2.com/blog-entry-xxx.html)
 - [SS★STATIONまとめ](http://ss-station.2chblog.jp/archives/xxx.html)
 - [SSMode](http://blog.livedoor.jp/mode_ss/archives/xxx.html)
+- [SS古今東西](http://blog.livedoor.jp/kokon55/archives/xxx.html)

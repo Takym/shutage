@@ -38,6 +38,7 @@ Copyright (C) 2020 Takym.
 * 科学ADVを除き他作品が含まれない事。
 * 例外：
 	* [岡部倫太郎 12.14 HAPPY BIRTHDAY](https://takym.github.io/shutage/articles/2017/12/14/ss0000.html)
+	* [『逆転のタイムマシン』](https://takym.github.io/shutage/articles/2017/05/20/ss0001.html)
 
 ## charname.js の使い方 <a id="charname"></a>
 * キャラの名前の先頭に`^`を付けて太字にする。
