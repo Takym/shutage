@@ -7,6 +7,7 @@ layout: post
 <article id="{{ tag[0] }}">
 	<h2>{{ tag[0] }}</h2>
 	{% if page.tags_viewmode=="table" %}
+	<ul><li><strong>{{ tag[0] }}</strong>内の記事数：{{ tag[1].size }}</li></ul>
 	<table border="0">
 		<thead><tr><th>題名</th><th>更新日時</th><th>投稿者</th><th>別のタグ</th></tr></thead>
 		<tbody>
@@ -28,6 +29,7 @@ layout: post
 			{% endfor %}
 		</tbody>
 	</table>
+	<hr />
 	{% else %}
 	<ul>
 		{% for post in tag[1] %}
