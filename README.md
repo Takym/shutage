@@ -8,6 +8,7 @@ Copyright (C) 2020 Takym.
 ## 目次
 * [概要](#summary)
 * [命名規則](#naming_convention)
+* [SS作品の収集指針](#collection_guidelines)
 * [charname.js の使い方](#charname)
 * [キャラ名タグ一覧](#charname_tags)
 * [このサイトの規約について](#terms)
@@ -30,6 +31,10 @@ Copyright (C) 2020 Takym.
 	* `自作`タグを付与する。
 	* 投稿者はこのリポジトリ内の記事の作成者を表すが、オリジナル作品の場合はSS作品の作者も表す。
 		* ただし、記事ページの全ての編集者の GitHub ID も記入する。
+
+## SS作品の収集指針 <a id="collection_guidelines"></a>
+* 作品名がキャラの台詞である事。
+* 科学ADVを除き他作品が含まれない事。
 
 ## charname.js の使い方 <a id="charname"></a>
 * キャラの名前の先頭に`^`を付けて太字にする。
