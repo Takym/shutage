@@ -49,3 +49,4 @@ tags:
 - [ひよとにちゃんねる](http://142ch.blog90.fc2.com/blog-entry-xxx.html)
 - [アムネジアｓｓ大全](http://amnesiataizen.blog.fc2.com/blog-entry-xxx.html)
 - [SS★STATIONまとめ](http://ss-station.2chblog.jp/archives/xxx.html)
+- [SSMode](http://blog.livedoor.jp/mode_ss/archives/xxx.html)
