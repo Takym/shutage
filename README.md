@@ -34,7 +34,10 @@ Copyright (C) 2020 Takym.
 
 ## SS作品の収集指針 <a id="collection_guidelines"></a>
 * 作品名がキャラの台詞である事。
+	* 例：`岡部「フゥーハッハッハ！！！」`
 * 科学ADVを除き他作品が含まれない事。
+* 例外：
+	* [岡部倫太郎 12.14 HAPPY BIRTHDAY](https://takym.github.io/shutage/articles/2017/12/14/ss0000.html)
 
 ## charname.js の使い方 <a id="charname"></a>
 * キャラの名前の先頭に`^`を付けて太字にする。
