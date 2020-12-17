@@ -17,7 +17,7 @@ Copyright (C) 2020 Takym.
 * マルチメディア作品想定科学ADV「STEINS;GATE」(とその派生作品)に関する情報を収集しています。
 * 下記のリンクから記事を探せます。
 	* [Blogページ](https://takym.github.io/shutage/articles/tags.html)
-	* [Wikiページ](https://takym.github.io/shutage/wiki/Home.html)
+	* [Wikiページ](https://takym.github.io/shutage/wiki/Home)
 		* Wikiページは[こちら](https://github.com/Takym/shutage/wiki)から編集できます。
 
 ## 命名規則 <a id="naming_convention"></a>
