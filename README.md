@@ -14,7 +14,7 @@ Copyright (C) 2020-2021 Takym.
 * [このサイトの規約について](#terms)
 
 ## 概要 <a id="summary"></a>
-* マルチメディア作品想定科学ADV「STEINS;GATE」(とその派生作品)に関する情報を収集しています。
+* マルチメディア作品想定科学ADV「STEINS;GATE」(発売元：株式会社MAGES.)とその派生作品に関する情報を収集しています。
 * 下記のリンクから記事を探せます。
 	* [Blogページ](https://takym.github.io/shutage/articles/tags.html)
 	* [Wikiページ](https://takym.github.io/shutage/wiki/Home)
