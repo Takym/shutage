@@ -1,5 +1,5 @@
 # シュタゲ関連の情報
-Copyright (C) 2020 Takym.
+Copyright (C) 2020-2021 Takym.
 
 [編集](https://github.com/Takym/shutage/)
 
