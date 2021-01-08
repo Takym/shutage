@@ -437,6 +437,8 @@ window.addEventListener("load", _ => {
 				tags[i].innerText = charnames[j].name;
 				tags[i].style.cssText = "font-weight: bold; color: " + charnames[j].color;
 				break;
+			} else {
+				tags[i].style.cssText = "font-weight: bold; color: #000000;";
 			}
 		}
 	}
