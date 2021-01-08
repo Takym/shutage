@@ -23,13 +23,18 @@ Copyright (C) 2020-2021 Takym.
 ## 命名規則 <a id="naming_convention"></a>
 * `_posts`ディレクトリ内のファイルは以下の様に命名する。
 * 2/5chまとめのSS作品の場合：
-	* `yyyy-mm-dd-ssxxxx` (`yyyy`は年、`mm`は月、`dd`は日を表す。四桁の数字の前に`ss`を付ける。)
+	* `yyyy-mm-dd-ssxxxx`
+		* `yyyy`は年、`mm`は月、`dd`は日を表す。
+		* `ss`の後ろには四桁の連番を付与する。
+		* 日付は最初の投稿とする。
 	* `SS作品`タグを付与する。
 	* 投稿者はこのリポジトリ内の記事の作成者を表し、SS作品の作者は記入しない。
 		* 投稿者は GitHub ID を記入する。
 		* 作者を記入する場合は、投稿者としてではなくページ内に記入する。
 * このリポジトリのオリジナル作品の場合：
-	* `yyyy-mm-dd-myssxxxx` (`yyyy`は年、`mm`は月、`dd`は日を表す。四桁の数字の前に`myss`を付ける。)
+	* `yyyy-mm-dd-myssxxxx`
+		* `yyyy`は年、`mm`は月、`dd`は日を表す。
+		* `myss`の後ろには四桁の連番を付与する。
 	* `SS作品`タグを付与する。
 	* `自作`タグを付与する。
 	* 投稿者はこのリポジトリ内の記事の作成者を表すが、オリジナル作品の場合はSS作品の作者も表す。
@@ -39,6 +44,7 @@ Copyright (C) 2020-2021 Takym.
 * 作品名がキャラの台詞である事。
 	* 例：`岡部「フゥーハッハッハ！！！」`
 * 科学ADVを除き他作品が含まれない事。
+	* ただし現実の有名人は含む。
 * 例外：
 	* [岡部倫太郎 12.14 HAPPY BIRTHDAY](https://takym.github.io/shutage/articles/2017/12/14/ss0000.html)
 	* [『逆転のタイムマシン』](https://takym.github.io/shutage/articles/2017/05/20/ss0001.html)
@@ -49,7 +55,10 @@ Copyright (C) 2020-2021 Takym.
 ```markdown
 **^岡部**「フゥーハッハッハ！！！」
 ```
-* 利用できるキャラの名前は[このページ](https://takym.github.io/shutage/articles/2020/11/16/charname.html)を参照。
+* 利用できるキャラの名前と色付けは下記のページを参照。
+	* [最新](https://takym.github.io/shutage/charname.html)
+	* [2021年01月09日](https://takym.github.io/shutage/articles/2021/01/09/charname.html)
+	* [2020年11月16日](https://takym.github.io/shutage/articles/2020/11/16/charname.html)
 
 ## キャラ名タグ一覧 <a id="charname_tags"></a>
 * 岡部倫太郎             - [岡部](https://takym.github.io/shutage/articles/tags.html#岡部)

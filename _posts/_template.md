@@ -28,7 +28,8 @@ tags:
   - その他キャラ
 ---
 <!-- このファイルはまとめSS用のテンプレートです。 -->
-<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=7&sort=s -->
+<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=9&sort=s -->
+<!-- ゼロ幅空白：&#x200B; -->
 - 題名：
 - [2ちゃんねる](http://viper.2ch.sc/test/read.cgi/news4vip/xxx)
 - [5ちゃんねる](http://hebi.5ch.net/test/read.cgi/news4vip/xxx)
@@ -52,3 +53,5 @@ tags:
 - [SS★STATIONまとめ](http://ss-station.2chblog.jp/archives/xxx.html)
 - [SSMode](http://blog.livedoor.jp/mode_ss/archives/xxx.html)
 - [SS古今東西](http://blog.livedoor.jp/kokon55/archives/xxx.html)
+- [インバリアント](http://invariant0.blog130.fc2.com/blog-entry-xxx.html)
+- [えすえすりんくす](http://blog.livedoor.jp/sslinks/archives/xxx.html)
