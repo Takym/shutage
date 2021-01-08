@@ -74,7 +74,7 @@ Copyright (C) 2020-2021 Takym.
 * 阿万音由季             - [由季](https://takym.github.io/shutage/articles/tags.html#由季)
 * 天王寺裕吾             - [天王寺](https://takym.github.io/shutage/articles/tags.html#天王寺)
 * 天王寺綯               - [綯](https://takym.github.io/shutage/articles/tags.html#綯)
-* アレクシス・レスキネン - [レスキネン](https://takym.github.io/shutage/articles/tags.html#レスキネン)
+* アレクシス・レスキネン - [ﾚｽｷﾈﾝ](https://takym.github.io/shutage/articles/tags.html#ﾚｽｷﾈﾝ)
 * 上記以外               - [その他キャラ](https://takym.github.io/shutage/articles/tags.html#その他キャラ)
 
 ## このサイトの規約について <a id="terms"></a>
