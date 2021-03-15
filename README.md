@@ -41,13 +41,19 @@ Copyright (C) 2020-2021 Takym.
 		* ただし、記事ページの全ての編集者の GitHub ID も記入する。
 
 ## SS作品の収集指針 <a id="collection_guidelines"></a>
-* 作品名がキャラの台詞である事。
+* この指針(方針、規則)は絶対に厳守しなければならないものではない。
+	* できる限りこの指針は守るべきではある。
+* 作品名がキャラの台詞である事。(タグ付けに利用される為)
 	* 例：`岡部「フゥーハッハッハ！！！」`
 * 科学ADVを除き他作品が含まれない事。
-	* ただし現実の有名人は含む。
+	* ただし現実の有名人は含む。(現実の有名人は作品の人物ではない為)
 * 例外：
 	* [岡部倫太郎 12.14 HAPPY BIRTHDAY](https://takym.github.io/shutage/articles/2017/12/14/ss0000.html)
 	* [『逆転のタイムマシン』](https://takym.github.io/shutage/articles/2017/05/20/ss0001.html)
+	* [シュタゲで安価SS](https://takym.github.io/shutage/articles/2016/01/23/ss0000.html)
+* 特殊な例：
+	* [キムタク「ちょっと、待てよ」](https://takym.github.io/shutage/articles/2016/01/19/ss0000.html)
+		* 作品名がキャラの台詞であり、且つ有名人が登場するが他作品は含まれないので、例外ではない。
 
 ## charname.js の使い方 <a id="charname"></a>
 * キャラの名前の先頭に`^`を付けて太字にする。
