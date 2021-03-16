@@ -3,7 +3,7 @@ Copyright (C) 2020-2021 Takym.
 
 [編集](https://github.com/Takym/shutage/)
 
-* 現在、殆どのコンテンツが準備中です。
+* ~~現在、殆どのコンテンツが準備中です。~~
 
 ## 目次
 * [概要](#summary)
@@ -44,13 +44,21 @@ Copyright (C) 2020-2021 Takym.
 * この指針(方針、規則)は絶対に厳守しなければならないものではない。
 	* できる限りこの指針は守るべきではある。
 * 作品名がキャラの台詞である事。(タグ付けに利用される為)
+	* 鍵括弧より外側の名前をタグにする。
 	* 例：`岡部「フゥーハッハッハ！！！」`
 * 科学ADVを除き他作品が含まれない事。
 	* ただし現実の有名人は含む。(現実の有名人は作品の人物ではない為)
 * 例外：
 	* [岡部倫太郎 12.14 HAPPY BIRTHDAY](https://takym.github.io/shutage/articles/2017/12/14/ss0000.html)
+		* 公式作品である。
 	* [『逆転のタイムマシン』](https://takym.github.io/shutage/articles/2017/05/20/ss0001.html)
 	* [シュタゲで安価SS](https://takym.github.io/shutage/articles/2016/01/23/ss0000.html)
+	* [Steins;Gate「二律背反のライデマイスター」](https://takym.github.io/shutage/articles/2015/09/27/ss0000.html)
+		* 鍵括弧前に `Steins;Gate` とあるが、これは台詞とは見做されない。
+	* [亡命者 ∞ 牧瀬章一【シュタゲSS】](https://takym.github.io/shutage/articles/2015/10/11/ss0000.html)
+		* 台詞ではないが、牧瀬章一(その他キャラ)をタグ付けのキャラとしている。
+	* [【シュタゲSS】ラボに帰ると紅莉栖が真っ赤だった](https://takym.github.io/shutage/articles/2015/08/06/ss0000.html)
+		* 台詞ではないが、紅莉栖をタグ付けのキャラとしている。
 * 特殊な例：
 	* [キムタク「ちょっと、待てよ」](https://takym.github.io/shutage/articles/2016/01/19/ss0000.html)
 		* 作品名がキャラの台詞であり、且つ有名人が登場するが他作品は含まれないので、例外ではない。
