@@ -59,6 +59,8 @@ Copyright (C) 2020-2021 Takym.
 		* 台詞ではないが、牧瀬章一(その他キャラ)をタグ付けのキャラとしている。
 	* [【シュタゲSS】ラボに帰ると紅莉栖が真っ赤だった](https://takym.github.io/shutage/articles/2015/08/06/ss0000.html)
 		* 台詞ではないが、紅莉栖をタグ付けのキャラとしている。
+	* [幻影のチェシャ猫](https://takym.github.io/shutage/articles/2015/02/28/ss0000.html)
+		* 台詞ではないが、ﾌｪｲﾘｽをタグ付けのキャラとしている。
 * 特殊な例：
 	* [キムタク「ちょっと、待てよ」](https://takym.github.io/shutage/articles/2016/01/19/ss0000.html)
 		* 作品名がキャラの台詞であり、且つ有名人が登場するが他作品は含まれないので、例外ではない。
@@ -71,6 +73,7 @@ Copyright (C) 2020-2021 Takym.
 ```
 * 利用できるキャラの名前と色付けは下記のページを参照。
 	* [最新](https://takym.github.io/shutage/charname.html)
+	* [2021年06月07日](https://takym.github.io/shutage/articles/2021/06/07/charname.html)
 	* [2021年01月09日](https://takym.github.io/shutage/articles/2021/01/09/charname.html)
 	* [2020年11月16日](https://takym.github.io/shutage/articles/2020/11/16/charname.html)
 
