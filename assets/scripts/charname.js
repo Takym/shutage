@@ -28,6 +28,9 @@ const reyes    = "#444444;"; // レイエス
 const yondoshi = "#444444;"; // 4℃
 const izaki    = "#444444;"; // 井崎
 const kayano   = "#444444;"; // 伽夜乃
+// タグ名の「^」を除去
+const valid    = "#000000;"; // 有効
+const invalid  = "#808080;"; // 無効
 
 // キャラ登録
 const charnames = [
@@ -429,18 +432,20 @@ const charnames = [
 	/////////////////////////
 	// タグ名の「^」を除去 //
 	/////////////////////////
-	{ "name": "未指定",           "color": "#000000;" },
-	{ "name": "実験用",           "color": "#000000;" },
-	{ "name": "SS作品",           "color": "#000000;" },
-	{ "name": "自作",             "color": "#000000;" },
-	{ "name": "公式",             "color": "#000000;" },
-	{ "name": "長編",             "color": "#000000;" },
-	{ "name": "短編",             "color": "#000000;" },
-	{ "name": "連載",             "color": "#000000;" },
-	{ "name": "安価",             "color": "#000000;" },
-	{ "name": "ネタ",             "color": "#000000;" },
-	{ "name": "シリアス",         "color": "#000000;" },
-	{ "name": "その他キャラ",     "color": "#000000;" },
+	{ "name": "未指定",           "color": invalid },
+	{ "name": "実験用",           "color": invalid },
+	{ "name": "SS作品",           "color": valid   },
+	{ "name": "自作",             "color": valid   },
+	{ "name": "公式",             "color": valid   },
+	{ "name": "長編",             "color": valid   },
+	{ "name": "短編",             "color": valid   },
+	{ "name": "連載",             "color": valid   },
+	{ "name": "安価",             "color": valid   },
+	{ "name": "未完成",           "color": invalid },
+	{ "name": "ソース無し",       "color": invalid },
+	{ "name": "ネタ",             "color": valid   },
+	{ "name": "シリアス",         "color": valid   },
+	{ "name": "その他キャラ",     "color": valid   },
 	{ "name": "まっちょしぃ登場", "color": mayuri },
 ];
 
