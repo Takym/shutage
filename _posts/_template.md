@@ -9,6 +9,7 @@ tags:
   - 連載
   - 安価
   - 未完成
+  - ソース無し
   - ネタ
   - シリアス
   - まっちょしぃ登場
@@ -29,7 +30,7 @@ tags:
   - その他キャラ
 ---
 <!-- このファイルはまとめSS用のテンプレートです。 -->
-<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=15&sort=s -->
+<!-- 次はここから：https://ssmania.info/category/%e3%82%b7%e3%83%a5%e3%82%bf%e3%82%b2?page=16&sort=s -->
 <!-- ゼロ幅空白：&#x200B; -->
 - 題名：
 - [2ちゃんねる](http://viper.2ch.sc/test/read.cgi/news4vip/xxxxx)
