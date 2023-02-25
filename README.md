@@ -2,5 +2,5 @@
 Copyright (C) 2020-2023 Takym.
 
 ## 概要
-* このリポジトリでは <https://takym.github.io/blogs/shutage> 内の記事を管理しています。
+* このリポジトリでは <https://takym.github.io/blog/shutage> 内の記事を管理しています。
 * Issue や PR もこのリポジトリで受け付けています。
