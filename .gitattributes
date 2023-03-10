@@ -1,0 +1,9 @@
+*.cmd     text eol=crlf encoding=utf-8
+*.sh      text eol=lf   encoding=utf-8
+*.html    text eol=crlf encoding=utf-8 diff=html
+*.md      text eol=crlf encoding=utf-8 diff=markdown
+*.js      text eol=crlf encoding=utf-8
+*.json    text eol=crlf encoding=utf-8
+*.css     text eol=crlf encoding=utf-8 diff=css
+*.yml     text eol=crlf encoding=utf-8
+*.ttf     binary -text -eol -encoding -diff

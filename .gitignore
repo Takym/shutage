@@ -1,0 +1,18 @@
+# desktop.ini
+desktop.ini
+
+# Temporary files
+[Tt]emp/*
+[Tt]mp/*
+*.temp
+*.tmp
+
+# Cache files
+[Cc]ache/*
+*.cache
+
+# Lock files
+*.lock
+
+# Site files
+_site/
