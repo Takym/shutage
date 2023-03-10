@@ -13,7 +13,9 @@ Copyright (C) 2020-2023 Takym.
 ## 概要 <a id="summary"></a>
 * マルチメディア作品想定科学ADV「STEINS;GATE」(発売元：株式会社MAGES.)とその派生作品に関する情報を収集しています。
 * 現在は更新が停滞しています。
-* [記事一覧](./posts.md)
+* [ブログ記事一覧](./posts.md)
+* [ウィキ表示](https://takym.github.io/wiki/shutage)
+* [ウィキ編集](https://github.com/Takym/shutage/wiki)
 
 ## 命名規則 <a id="naming_convention"></a>
 * `_posts/shutage` ディレクトリ内のファイルは以下の様に命名する。
