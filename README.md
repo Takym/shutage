@@ -101,9 +101,9 @@ Copyright (C) 2020-2023 Takym.
 ## このサイトの規約について <a id="terms"></a>
 * ソフトウェアではありませんがMITライセンスとします。
 * 詳細は[こちらのページ](./LICENSE.md)をご覧ください。
-* 利用ソフトウェア一覧は[こちらのページ](../../THIRD_PARTY_NOTICE.md)をご覧ください。
+* 利用ソフトウェア一覧は[こちらのページ](https://takym.github.io/THIRD_PARTY_NOTICE.html)をご覧ください。
 
 ## 貢献 <a id="contribution"></a>
-* Issue や PR は[このリポジトリ](https://github.com/Takym/takym.github.io)ではなく <https://github.com/Takym/shutage> へ投稿してください。
-* このリポジトリに投稿されたものは無視します。
-* また、このリポジトリに対するフォークやクローン等はご遠慮ください。
+* Issue や PR は [Takym/takym.github.io](https://github.com/Takym/takym.github.io) ではなく [Takym/shutage](https://github.com/Takym/shutage) へ投稿してください。
+* `Takym/takym.github.io` に投稿されたものは無視します。
+* また、この `Takym/takym.github.io` に対するフォークやクローン等はご遠慮ください。
