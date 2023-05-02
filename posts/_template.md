@@ -39,6 +39,7 @@ category: shutage
 - [SS速報VIP](https://ex14.vip2ch.com/test/read.cgi/news4ssnip/xxxxx/)
 - [おーぷん2ちゃん](https://hayabusa.open2ch.net/test/read.cgi/news4vip/xxxxx/)
 - [したらば掲示板](https://jbbs.shitaraba.net/xxxxx)
+- [SS投稿速報](https://sstokosokuho.com/ss/read/xxxxx)
 - [あやめ速報](https://ayamevip.com/archives/xxxxx.html)
 - [ポチッとSS!! SSまとめ](http://potittoss.blog.jp/archives/xxxxx.html)
 - [SS 森きのこ！](http://morikinoko.com/archives/xxxxx.html)
