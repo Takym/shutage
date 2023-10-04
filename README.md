@@ -75,15 +75,9 @@ Copyright (C) 2020-2023 Takym.
 		* **#岡部**「フゥーハッハッハ！！！」
 		* **^岡部**「フゥーハッハッハ！！！」
 * 利用できるキャラの名前と色付けは下記のページを参照。
-	* [最新](https://takym.github.io/blog/shutage/charname.html)
-	* [2023年08月28日](https://takym.github.io/blog/shutage/2023/08/28/charname.html)
-	* [2023年05月02日](https://takym.github.io/blog/shutage/2023/05/02/charname.html)
-	* [2023年03月11日](https://takym.github.io/blog/shutage/2023/03/11/charname.html)
-	* [2023年02月25日](https://takym.github.io/blog/shutage/2023/02/25/charname.html)
-	* [2021年06月07日](https://takym.github.io/blog/shutage/2021/06/07/charname.html)
-	* [2021年01月09日](https://takym.github.io/blog/shutage/2021/01/09/charname.html)
-	* [2020年11月16日](https://takym.github.io/blog/shutage/2020/11/16/charname.html)
-	* [charname.js の実験用ファイル生成器](./gen_charname.md)
+	* [最新の charname.html](https://takym.github.io/blog/shutage/charname.html)
+	* [過去の charname.html](https://takym.github.io/blog/tags.html#charname.html)
+	* [charname.html 生成器](./gen_charname.md)
 
 ## キャラ名タグ一覧 <a id="charname_tags"></a>
 * **^岡部倫太郎**                - [岡部](https://takym.github.io/blog/tags.html#岡部)
