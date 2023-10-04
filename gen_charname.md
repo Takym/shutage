@@ -2,7 +2,7 @@
 layout: post
 title: charname.html 生成器
 authors: Takym
-tag:
+tags:
   - 実験用
   - charname.html
 category: shutage
