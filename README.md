@@ -1,5 +1,4 @@
 ---
-title: "shutage: シュタゲ関連の情報"
 authors: Takym
 category: shutage
 cat_main: cat_main
