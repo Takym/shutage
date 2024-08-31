@@ -6,6 +6,7 @@ tags:
   - 実験用
   - charname.html
 category: shutage
+cat_main: cat_main
 ---
 
 <pre><code id="code_of_charname_md">---

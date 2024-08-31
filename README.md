@@ -1,3 +1,9 @@
+---
+title: "shutage: シュタゲ関連の情報"
+authors: Takym
+category: shutage
+cat_main: cat_main
+---
 # shutage: シュタゲ関連の情報
 Copyright (C) 2020-2023 Takym.
 
