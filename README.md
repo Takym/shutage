@@ -3,6 +3,9 @@ authors: Takym
 category: shutage
 cat_main: cat_main
 ---
+# <strong style="color:red"><u>このリポジトリは [`Takym/takym.github.io`](https://github.com/Takym/takym.github.io) に統合されました。</u></strong>
+---
+
 # shutage: シュタゲ関連の情報
 Copyright (C) 2020-2023 Takym.
 
